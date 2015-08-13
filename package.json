@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node bootstrap.js",
-    "prestart": "gulp"
+    "prestart": "gulp",
+    "setup": "cd ssl && ./gen.sh",
+    "postsetup": "npm install"
   },
   "author": "Karim Alibhai",
   "license": "Apache-2.0",
