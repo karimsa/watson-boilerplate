@@ -8,7 +8,7 @@
     "start": "node bootstrap.js",
     "prestart": "gulp",
     "setup": "cd ssl && ./gen.sh",
-    "postsetup": "npm install"
+    "postsetup": "bower install && npm install"
   },
   "author": "Karim Alibhai",
   "license": "Apache-2.0",
