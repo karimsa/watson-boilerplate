@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en" ng-app="WatsonApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Sample Watson App</title>
+
+    <link rel="stylesheet" href="./vendor/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./dist/css/index.css">
+  </head>
+  <body ng-controller="WatsonController">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+          <ul class="list-group">
+            <li class="list-group-item" ng-repeat="item in history">{{item}}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="./vendor/jquery/dist/jquery.min.js"></script>
+    <script src="./vendor/angular/angular.min.js"></script>
+    <script src="./dist/js/jquery-publish.js"></script>
+    <script src="./dist/js/index.js"></script>
+  </body>
+</html>
